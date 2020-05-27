@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lab2.3.css" />
+    <title>lab</title>
+</head>
+<style>
+    .center {
+        text-align: center
+    }
+</style>
+
+<body>
+    <h1 div class="center" id="c">Login</h1>
+    <form action="">
+        <main class="center">
+
+
+            <div>
+                <p class="errorName">The age must be letters</p>
+                <label for="name">Name : </label>
+                <input class="name" type="text" name="name" placeholder="Enter your name" />
+            </div>
+            <div>
+                <p class="errorAge">The age must be positive</p>
+                <label for="age">Age : </label>
+                <input class="age" type="number" name="age" placeholder="Enter your age" />
+            </div>
+            <div class=gender>
+                <label for="gender">Gender : </label> Male
+                <input type="radio" name="gender" id="gender" value="male" /> Female
+                <input type="radio" name="gender" id="gender" value="female" />
+            </div>
+
+            <button type="submit" class="btn">Submit</button>
+        </main>
+    </form>
+    <div class="center">
+        <div class="output"></div>
+    </div>
+    <script src="lab2.3.js"></script>
+</body>
+
+</html>

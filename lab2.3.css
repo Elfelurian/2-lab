@@ -1,0 +1,23 @@
+            @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+            output {
+                font-size: 24px;
+                color: grey;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            
+            body {
+                font-family: 'Cairo', sans-serif;
+            }
+            
+            .errorAge {
+                display: none;
+            }
+            
+            .errorName {
+                display: none;
+            }
+            
+            h1 {
+                font-size: 28px;
+                color: grey;
+            }
